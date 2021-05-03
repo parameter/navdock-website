@@ -1,9 +1,14 @@
 <?php
 
-// Pär custom
+// ---------- //
+// Pär custom //
+// ---------- //
 
 // init blocks
 require_once dirname( __FILE__ ) . '/blocks/init.php';
+
+// init acf-fields 
+require_once dirname( __FILE__ ) . '/fields/landingpage-config.php';
 
 // image-sizes
 add_image_size( 'page-background-image', 1800 );
@@ -12,7 +17,9 @@ add_image_size('landing-block-background-half', 1000);
 
 
 
-
+// ---------- //
+// END : Pär custom //
+// ---------- //
 
 /**
  * @package WordPress
